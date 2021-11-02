@@ -10,6 +10,6 @@ Feature: Registration Feature
     And I enter the password as "<password>"
     And I click on the submit button
     Examples:
-      | name        | Phone number | email                      | country | city   | username       | password |
-      | Rahul Arora | 9711111558   | trainer@way2automation.com | India   | Delhi  | rahularora1985 | asdfsdfdf|
-      | Raman Arora | 9711911558   | java@way2automation.com    | Germany | Berlin | ramanarora1986 | werwerwer|
+      | name        | Phone number | email           | country | city   | username | password |
+      | A Mukherjee | 8900560944   | test@email.com  | India   | Kolkata| amkh     | asdfsdfdf|
+      | S Mukherjee | 9711911558   | smkh@email.com  | Germany | Berlin | smkh     | werwerwer|
