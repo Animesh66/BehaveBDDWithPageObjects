@@ -1,9 +1,9 @@
 from selenium.webdriver import ActionChains
 from selenium.webdriver.support.select import Select
 
-from Utilities import configReader
+from BehaveBDDWithPageObjects.Utilities import configReader
 import logging
-from Utilities.LogUtil import Logger
+from BehaveBDDWithPageObjects.Utilities.LogUtil import Logger
 
 log = Logger(__name__, logging.INFO)
 

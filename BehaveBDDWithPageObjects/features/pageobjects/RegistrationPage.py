@@ -1,4 +1,4 @@
-from features.pageobjects.BasePage import BasePage
+from BehaveBDDWithPageObjects.features.pageobjects.BasePage import BasePage
 
 
 class RegistrationPage(BasePage):
