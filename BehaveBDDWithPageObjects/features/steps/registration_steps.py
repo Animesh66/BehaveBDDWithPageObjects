@@ -50,5 +50,5 @@ def step_impl(context, password):
 @then(u'I click on the submit button')
 def step_impl(context):
     context.reg.submitForm()
-    assert False
-    time.sleep(3)
+
+
