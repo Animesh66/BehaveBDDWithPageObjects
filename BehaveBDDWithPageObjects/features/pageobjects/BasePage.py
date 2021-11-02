@@ -46,7 +46,7 @@ class BasePage:
         log.logger.info("Selecting from an element: " + str(locator) + " value selected as : " + str(value))
 
     def moveTo(self, locator):
-        #added comments
+
         if str(locator).endswith("_XPATH"):
             element = self.driver.find_element_by_xpath(configReader.readConfig("locators", locator))
         elif str(locator).endswith("_CSS"):
