@@ -1,6 +1,5 @@
 from selenium.webdriver import ActionChains
 from selenium.webdriver.support.select import Select
-
 from BehaveBDDWithPageObjects.Utilities import configReader
 import logging
 from BehaveBDDWithPageObjects.Utilities.LogUtil import Logger
