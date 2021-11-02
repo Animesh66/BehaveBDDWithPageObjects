@@ -2,8 +2,8 @@ import time
 
 from behave import *
 
-from Utilities import configReader
-from features.pageobjects.RegistrationPage import RegistrationPage
+from BehaveBDDWithPageObjects.Utilities import configReader
+from BehaveBDDWithPageObjects.features.pageobjects.RegistrationPage import RegistrationPage
 
 
 @given(u'I navigate to qa.way2automation.com')
