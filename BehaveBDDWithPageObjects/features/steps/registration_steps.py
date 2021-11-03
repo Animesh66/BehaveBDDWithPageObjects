@@ -1,5 +1,4 @@
 import time
-
 from behave import *
 
 from BehaveBDDWithPageObjects.Utilities import configReader
