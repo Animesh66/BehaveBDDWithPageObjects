@@ -158,3 +158,19 @@
 2021-11-03 12:12:56,777 - BasePage.py:[32] - [INFO] - Typing in an element: username_XPATH value entered as : smkh
 2021-11-03 12:12:56,790 - BasePage.py:[32] - [INFO] - Typing in an element: password_XPATH value entered as : werwerwer
 2021-11-03 12:12:57,025 - BasePage.py:[22] - [INFO] - Clicking on an element: submit_XPATH
+2021-11-03 12:14:09,801 - BasePage.py:[32] - [INFO] - Typing in an element: name_XPATH value entered as : A Mukherjee
+2021-11-03 12:14:09,817 - BasePage.py:[32] - [INFO] - Typing in an element: phone_XPATH value entered as : 8900560944
+2021-11-03 12:14:09,830 - BasePage.py:[32] - [INFO] - Typing in an element: email_XPATH value entered as : test@email.com
+2021-11-03 12:14:09,847 - BasePage.py:[46] - [INFO] - Selecting from an element: country_XPATH value selected as : India
+2021-11-03 12:14:09,856 - BasePage.py:[32] - [INFO] - Typing in an element: city_XPATH value entered as : Kolkata
+2021-11-03 12:14:09,866 - BasePage.py:[32] - [INFO] - Typing in an element: username_XPATH value entered as : amkh
+2021-11-03 12:14:09,878 - BasePage.py:[32] - [INFO] - Typing in an element: password_XPATH value entered as : asdfsdfdf
+2021-11-03 12:14:10,116 - BasePage.py:[22] - [INFO] - Clicking on an element: submit_XPATH
+2021-11-03 12:14:23,134 - BasePage.py:[32] - [INFO] - Typing in an element: name_XPATH value entered as : S Mukherjee
+2021-11-03 12:14:23,146 - BasePage.py:[32] - [INFO] - Typing in an element: phone_XPATH value entered as : 9711911558
+2021-11-03 12:14:23,160 - BasePage.py:[32] - [INFO] - Typing in an element: email_XPATH value entered as : smkh@email.com
+2021-11-03 12:14:23,389 - BasePage.py:[46] - [INFO] - Selecting from an element: country_XPATH value selected as : Germany
+2021-11-03 12:14:23,403 - BasePage.py:[32] - [INFO] - Typing in an element: city_XPATH value entered as : Berlin
+2021-11-03 12:14:23,415 - BasePage.py:[32] - [INFO] - Typing in an element: username_XPATH value entered as : smkh
+2021-11-03 12:14:23,426 - BasePage.py:[32] - [INFO] - Typing in an element: password_XPATH value entered as : werwerwer
+2021-11-03 12:14:23,652 - BasePage.py:[22] - [INFO] - Clicking on an element: submit_XPATH

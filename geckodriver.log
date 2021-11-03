@@ -57,3 +57,24 @@ JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILU
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1635921841256	geckodriver	INFO	Listening on 127.0.0.1:61567
+1635921844476	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61568" "-no-remote" "-profile" "C:\\Users\\ANIMES~1\\AppData\\Local\\Temp\\rust_mozprofilenRxpbZ"
+1635921844802	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Animesh_Mukherjee\\AppData\\Local\\Temp\\rust_mozprofilenRxpbZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61568/devtools/browser/1b459f4e-e1f9-4406-9d50-a1c00316b8d0
+1635921846549	Marionette	INFO	Listening on port 61574
+1635921846638	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1635921853122	Marionette	INFO	Stopped listening on port 61574
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+[Parent 19284, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1635921855493	geckodriver	INFO	Listening on 127.0.0.1:61693
+1635921858577	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61694" "-no-remote" "-profile" "C:\\Users\\ANIMES~1\\AppData\\Local\\Temp\\rust_mozprofilevWiyKE"
+1635921858904	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Animesh_Mukherjee\\AppData\\Local\\Temp\\rust_mozprofilevWiyKE\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61694/devtools/browser/0c85fc9b-95f3-4c37-ba9e-2acae50f4bbd
+1635921860560	Marionette	INFO	Listening on port 61699
+1635921860635	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1635921866658	Marionette	INFO	Stopped listening on port 61699
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+[Parent 19984, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
