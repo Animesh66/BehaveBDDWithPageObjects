@@ -17,32 +17,32 @@ def step_impl(context, name):
     context.reg.setName(name)
 
 
-@then(u'I enter the phone number as "{phoneNumber}"')
+@when(u'I enter the phone number as "{phoneNumber}"')
 def step_impl(context, phoneNumber):
     context.reg.setPhoneNumber(phoneNumber)
 
 
-@then(u'I enter the email as "{email}"')
+@when(u'I enter the email as "{email}"')
 def step_impl(context, email):
     context.reg.setEmail(email)
 
 
-@then(u'I enter the country as "{country}"')
+@when(u'I enter the country as "{country}"')
 def step_impl(context, country):
     context.reg.setCountry(country)
 
 
-@then(u'I enter the city as "{city}"')
+@when(u'I enter the city as "{city}"')
 def step_impl(context, city):
     context.reg.setCity(city)
 
 
-@then(u'I enter the username as "{email}"')
+@when(u'I enter the username as "{email}"')
 def step_impl(context, email):
     context.reg.setUsername(email)
 
 
-@then(u'I enter the password as "{password}"')
+@when(u'I enter the password as "{password}"')
 def step_impl(context, password):
     context.reg.setPassword(password)
 
