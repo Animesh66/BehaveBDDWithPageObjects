@@ -10,9 +10,11 @@ def before_scenario(context, driver):
     if configReader.readConfig("basic info","browser") == "chrome":
         context.driver = webdriver.Chrome(executable_path=ChromeDriverManager().install())
         context.driver.maximize_window()
+        context.driver.implicitly_wait(10)
     if configReader.readConfig("basic info","browser") == "firefox":
         context.driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
         context.driver.maximize_window()
+        context.driver.implicitly_wait(10)
 
 
 def after_scenario(context, driver):
