@@ -1,0 +1,32 @@
+1635913180067	geckodriver	INFO	Listening on 127.0.0.1:60185
+1635913183119	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60186" "-no-remote" "-profile" "C:\\Users\\ANIMES~1\\AppData\\Local\\Temp\\rust_mozprofileaQf1GV"
+1635913183964	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Animesh_Mukherjee\\AppData\\Local\\Temp\\rust_mozprofileaQf1GV\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60186/devtools/browser/ebb5ec6a-269e-43db-890e-edc7025f4029
+1635913186465	Marionette	INFO	Listening on port 60193
+1635913186833	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1635913194746	Marionette	INFO	Stopped listening on port 60193
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x59000C,name=PHttpChannel::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 20076, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1635913197980	geckodriver	INFO	Listening on 127.0.0.1:60274
+1635913201034	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60275" "-no-remote" "-profile" "C:\\Users\\ANIMES~1\\AppData\\Local\\Temp\\rust_mozprofilecuwNPW"
+1635913201420	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Animesh_Mukherjee\\AppData\\Local\\Temp\\rust_mozprofilecuwNPW\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60275/devtools/browser/0944c37a-4697-494e-a783-f2058e71d3b1
+1635913203535	Marionette	INFO	Listening on port 60280
+1635913203674	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1635913211387	Marionette	INFO	Stopped listening on port 60280
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 23276, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
