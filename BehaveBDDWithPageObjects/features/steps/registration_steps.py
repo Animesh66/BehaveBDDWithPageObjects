@@ -1,6 +1,5 @@
 import time
 from behave import *
-
 from BehaveBDDWithPageObjects.Utilities import configReader
 from BehaveBDDWithPageObjects.features.pageobjects.RegistrationPage import RegistrationPage
 
